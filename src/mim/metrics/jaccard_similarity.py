@@ -16,7 +16,7 @@ def jaccard_similarity(adata, cell_ID, modality, modalities, dopp):
     modality
         The name of the obs column containing the modality of the data. (string)
     modalities
-        List of modality names, length 2. (list)
+        List of modality names, length 2. (list of strings)
     dopp
         The name of the obs column containing bools for whether the cell is a doppelgaenger or not. (string)
 
